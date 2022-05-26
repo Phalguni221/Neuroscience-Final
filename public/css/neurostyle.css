@@ -82,16 +82,25 @@ a:after {
 .Box {
   border-color: white;
   background-color: palegoldenrod;
+  position: absolute;
   display: inline-block;
   width: 1200px;
   height: 1600px;
-  margin-left: 500px;
+  margin-left: 50px;
   margin-bottom: 2000px;
   margin-top: 20px;
+  vertical-align: middle;
 }
 
 .Tabs {
   display: inline-block;
+}
+
+.navbar {
+  display: inline-block;
+  border: 1px solid red;
+  padding: 1rem 1rem;
+  vertical-align: middle;
 }
 
 .column {
@@ -100,7 +109,7 @@ a:after {
   width: 44.33%;
   float: left;
   margin-left: 35px;
-  padding: 9.7px;
+  padding: 11.7px;
   border-left: 2px black;
   border-radius: 8px;
 }
@@ -131,6 +140,7 @@ h1 {
   width: 1000px;
   font: 40px Arial, sans-serif;
   text-align: center;
+  margin-left:100px;
 }
 
 h2 {
@@ -158,9 +168,11 @@ body {
   width: 35.33%;
   float: left;
   margin-left: 35px;
-  padding: 9.7px;
+  padding: 7.7px;
   border-left: 2px black;
   border-radius: 8px;
+  padding: 1rem 1rem;
+  text-align: center;
 }
 
 body::-webkit-scrollbar {
@@ -176,6 +188,10 @@ img {
   position: fixed;
   height: 3px;
   width: 30px;
+}
+
+footer {
+  margin-right: 1000px;
 }
 
 hr {
@@ -216,7 +232,7 @@ h3 {
 .Wrapper {
   background-color: black;
   display: flex;
-  width: 1000px;
+  width: 1200px;
   height: 150px;
   margin-left: 500px;
 }
