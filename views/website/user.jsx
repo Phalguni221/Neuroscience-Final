@@ -35,7 +35,8 @@ function User ({ children, title }) {
                 </div>
                 
         <body>
-             <p>
+        <div class = "navbar">
+            <p>
              <form method="GET" action="home">
              <text><input type="Submit" name="home" class="btn-primary" value="home"/></text>
              </form> 
@@ -74,22 +75,24 @@ function User ({ children, title }) {
           <br></br>
               </p>
 
-              {/* <p>
-             <form method="GET" action="user">
-             <text><input type="Submit" name="braingame" class="btn-primary" value="user"/></text>
+               <p>
+             <form method="GET" action="ContactInfo">
+             <text><input type="Submit" name="ContactInfo" class="btn-primary" value="ContactInfo"/></text>
              </form> 
           <br></br>
           <br></br>
-              </p> */}
-
-            </body>   
-
-            <div class = "Box">
+              </p> 
+            </div>
+            <div className = "Box">
               <p>Hello</p>
               <p>Welcome to the site!</p>
               <p>Here, you can find lots of information about neuroscience through the form of articles! Check out New Info and Tech to access these various articles!</p>
               <p>Welcome to the site!</p>
-    </div>
+             </div>
+
+           
+            </body>   
+
 
            
                 <footer>

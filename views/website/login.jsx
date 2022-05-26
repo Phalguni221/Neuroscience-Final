@@ -14,7 +14,9 @@ const Def = require('../default')
       <div class = "Wrapper">
            <h1>User Login</h1>
         </div>
-         <body>
+
+        <body>  
+        <div class = "navbar">     
              <p>
              <form method="GET" action="home">
              <text><input type="Submit" name="home" class="btn-primary" value="home"/></text>
@@ -46,16 +48,17 @@ const Def = require('../default')
           <br></br>
               </p>
 
-              {/* <p>
-             <form method="GET" action="braingame">
-             <text><input type="Submit" name="braingame" class="btn-primary" value="login"/></text>
+               <p>
+             <form method="GET" action="ContactInfo">
+             <text><input type="Submit" name="braingame" class="btn-primary" value="ContactInfo"/></text>
              </form> 
           <br></br>
           <br></br>
-              </p> */}
-          
+              </p> 
+        </div>     
 
     <div class = "Box">
+        <p>
      <form method ="GET" action="User">
  
     <label for="fname">First name:</label><br/>
@@ -88,6 +91,7 @@ const Def = require('../default')
  
     <input type="submit" value="Submit"></input>
     </form>
+    </p>
     </div>
     </body>
 </html>

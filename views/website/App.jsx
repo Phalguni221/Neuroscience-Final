@@ -72,6 +72,14 @@ function App ({ children, title }) {
           <br></br>
           <br></br>
               </p>
+
+              <p>
+             <form method="GET" action="ContactInfo">
+             <text><input type="Submit" name="ContactInfo" class="btn-primary" value="ContactInfo"/></text>
+             </form> 
+          <br></br>
+          <br></br>
+              </p>
             </body>   
                 <footer>
 <div class = "Wrapper2">

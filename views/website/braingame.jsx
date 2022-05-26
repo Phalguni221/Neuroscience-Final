@@ -34,7 +34,8 @@ function braingame ({ children, title }) {
                 <h1>Brain Maze</h1>
                 </div>
                 
-       
+                <body>  
+        <div class = "navbar">     
              <p>
              <form method="GET" action="home">
              <text><input type="Submit" name="home" class="btn-primary" value="home"/></text>
@@ -68,15 +69,16 @@ function braingame ({ children, title }) {
 
               <p>
              <form method="GET" action="braingame">
-             <text><input type="Submit" name="braingame" class="btn-primary" value="braingame"/></text>
+             <text><input type="Submit" name="braingame" class="btn-primary" value="login"/></text>
              </form> 
           <br></br>
           <br></br>
               </p>
-          
+        </div>     
             <div class = "Box">
                 <p>Welcome to Brain Maze!</p>
     </div>
+    </body>
                 <footer>
                 <br></br>
 <div>

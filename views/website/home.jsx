@@ -33,7 +33,8 @@ function Home ({ children, title }) {
                  <div class= "Wrapper">
                 <h1>Neurosense:Where Neuroscience Makes Sense</h1>
                 </div>
-                
+        <body>  
+        <div class = "navbar">     
              <p>
              <form method="GET" action="home">
              <text><input type="Submit" name="home" class="btn-primary" value="home"/></text>
@@ -65,14 +66,14 @@ function Home ({ children, title }) {
           <br></br>
               </p>
 
-              {/* <p>
-             <form method="GET" action="braingame">
-             <text><input type="Submit" name="braingame" class="btn-primary" value="login"/></text>
+              <p>
+             <form method="GET" action="ContactInfo">
+             <text><input type="Submit" name="ContactInfo" class="btn-primary" value="ContactInfo"/></text>
              </form> 
           <br></br>
           <br></br>
-              </p> */}
-             
+              </p>
+        </div>     
             <div class = "Box">
               <p>Hello</p>
               <br></br>
@@ -82,10 +83,9 @@ function Home ({ children, title }) {
               <br></br>
               <p>Click each tab to access the appropriate information!</p>
     </div>
-
+    </body>
            
-                <footer>
-                <br></br>
+            
 <div>
 <h3>
    Want to find more information from the creator of the website? Find her information located below!
@@ -102,7 +102,7 @@ function Home ({ children, title }) {
 LinkedIn: https://www.linkedin.com/in/sriya-bhamidipati/
 </h3>
 </div>
-                </footer>
+            
               
    
         </html>

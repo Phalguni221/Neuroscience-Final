@@ -37,7 +37,8 @@ let newinfoFormatted = data.newinfo?.map((newinfo) => {
      <div className = "Wrapper">
            <h1>New Info</h1>
         </div>
-         <body>
+        <body>  
+        <div class = "navbar">     
              <p>
              <form method="GET" action="home">
              <text><input type="Submit" name="home" class="btn-primary" value="home"/></text>
@@ -46,7 +47,7 @@ let newinfoFormatted = data.newinfo?.map((newinfo) => {
              <br></br>
 
              <p>
-               <form method="GET" action="newInfo">
+               <form method="GET" action="NewInfo">
              <text><input type="Submit" name="newinfo" class="btn-primary" value="newinfo"/></text>
              </form> 
           <br></br>
@@ -69,17 +70,18 @@ let newinfoFormatted = data.newinfo?.map((newinfo) => {
           <br></br>
               </p>
 
-              {/* <p>
-             <form method="GET" action="braingame">
-             <text><input type="Submit" name="braingame" class="btn-primary" value="login"/></text>
+              <p>
+             <form method="GET" action="ContactInfo">
+             <text><input type="Submit" name="ContactInfo" class="btn-primary" value="ContactInfo"/></text>
              </form> 
           <br></br>
           <br></br>
-              </p> */}
-            </body>
+              </p>
+        </div>     
       <div className = "Box">
       <p>{newinfoFormatted}</p>
       </div>
+      </body>
 </html>
 ) 
 
