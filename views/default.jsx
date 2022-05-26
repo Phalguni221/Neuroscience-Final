@@ -4,8 +4,6 @@ const React = require("react");
 <>
   <head>
     <link rel="stylesheet" href="/css/neurostyle.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
-
   </head>
   <body>
     <p>
@@ -26,7 +24,6 @@ const React = require("react");
     <p>
       <form method="GET" action="tech">
         <text><input type="Submit" name="tech" class="btn-primary" value="tech" /></text>
-      
       </form>
       <br></br>
       <br></br>
