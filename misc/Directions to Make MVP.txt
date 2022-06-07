@@ -1,0 +1,11 @@
+Steps:
+- Fix databasse connection bug
+	- try restarting
+	- Maybe try some other troubleshooting steps
+	- if that doesn't work, go back to previous commit. 
+- Finish the App.jsx file
+	- Make sure that the layout matches the layout that we are looking for
+- For every endpoint (/acticles, /tech, /newInfo)
+	- use the res.render funtion for the resepective jsx view
+		-each view should look similar to the current newInfo.jsx file.
+- Go through the file structure and remove any unused/unnecessary code. 
