@@ -56,6 +56,10 @@ app.get('/website/brainMaze', (req, res) => {
   res.send('brainMaze')
 })
 
+app.get('/website/logout', (req, res) => {
+  res.send('logout')
+})
+
 
 app.get('*', (req, res) => {
   res.render('error404')
