@@ -57,9 +57,9 @@ router.get("/", (req, res) => {
     })
 
     
-    router.get("/user", (req, res) => {
+    router.post("/user", (req, res) => {
       // console.log("neuro", newinfo);
-      res.render("website/User");
+      res.render("website/user");
       // res.render('Header',{message:'we work'})
     })
 

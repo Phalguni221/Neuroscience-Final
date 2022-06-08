@@ -19,7 +19,7 @@ const ArticleController = require("./controllers/articles");
 //test route
 app.get("/", (req, res) => res.send("backend working ..."));
 
-app.use("/articles", ArticleController);
+app.use("/", ArticleController);
 
 
 app.post('/', (req, res) => {
@@ -43,49 +43,23 @@ app.get('/website/login', (req, res) => {
   res.render('login')
 })
 
+app.get('/website/signin', (req, res) => {
+  res.render('signin')
+})
 
-app.get('/website/User', (req, res) => {
+
+app.get('/website/user', (req, res) => {
   res.render('user')
 })
 
-app.get('/website/braingame', (req, res) => {
-  res.send('braingame')
+app.get('/website/brainMaze', (req, res) => {
+  res.send('brainMaze')
 })
 
 
 app.get('*', (req, res) => {
   res.render('error404')
 })
-
-app.get('/', (req, res) => {
-  res.render('dresses/index')
-})
-
-app.get('/dresses/delete', (req, res) => {
-  res.render('Deletepage')
-})
-
-
-
-
-// app.post('/', (req, res) => {
-//   res.render('NewInfo')
-// })
-
-app.get('/tech', (req, res) => {
-  res.render('tech')
-})
-
-// app.post('/tech', (req, res) => {
-//   res.render('Tech')
-// })
-
-// app.get('/login', (req, res) => {
-//   res.render('login')
-// })
-// app.post('/Technnology', (req,res) => {
-//     res.render('Technology')
-//   })
 
 mongoose
   .connect(process.env.MONGO_URI) //for secret key
@@ -99,26 +73,4 @@ app.listen(process.env.PORT || 3400, () => {
   console.log("Backend server is running!");
 });
 
-// app.post('/tech', (req,res) => {
-//   res.render('Tech')
-// })
 
-// app.get('/login', (req, res) => {
-//   res.render('login')
-// })
-
-// app.post('/Technnology', (req,res) => {
-//     res.render('Technology')
-//   })
-
-// mongoose
-//   .connect("mongodb://localhost:27017/neurostyle") //for secret key
-//   .then(() => console.log("DB Connection Successfull!"))  //.then for prom
-//   .catch((err) => {
-//     console.log(err); //For view errors
-//   });
-
-// //Listen for Connections
-// app.listen(process.env.PORT || 3400, () => {
-//   console.log("_________Backend server is running! " + process.env.PORT);
-// });
